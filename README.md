@@ -77,10 +77,8 @@ tech-camps-amazon/
 
 ## 🚀 Como rodar localmente
 
-**Opção 1: duplo clique**
-Abra a pasta e dê dois cliques no `index.html`. Ele abre no navegador.
 
-**Opção 2: VS Code com Live Server (recomendado)**
+VS Code com Live Server (recomendado)**
 1. Abra a pasta do projeto no VS Code.
 2. Instale a extensão **Live Server** (Ritwick Dey).
 3. Clique com o botão direito no `index.html` → **Open with Live Server**.
@@ -89,7 +87,7 @@ Abra a pasta e dê dois cliques no `index.html`. Ele abre no navegador.
 
 **Clonando pelo Git:**
 ```bash
-git clone https://github.com/SEU-USUARIO/tech-camps-amazon.git
+git clone 
 cd tech-camps-amazon
 ```
 
@@ -97,10 +95,7 @@ cd tech-camps-amazon
 
 ##  Publicação (GitHub Pages)
 
-1. No repositório, vá em **Settings → Pages**.
-2. Em **Source**, escolha **Deploy from a branch**.
-3. Selecione a branch `main` e a pasta `/ (root)`, e clique em **Save**.
-4. Em instantes, o site fica disponível em `https://SEU-USUARIO.github.io/tech-camps-amazon/`.
+Site em construção, ainda sera publicado
 
 ---
 
@@ -119,7 +114,7 @@ cd tech-camps-amazon
 
 - [AWS, Amazon Web Services](https://aws.amazon.com)
 - [Amazon, Relações com Investidores](https://ir.aboutamazon.com)
-- Revista PEGN, matéria sobre os 30 anos da Amazon
+
 
 ---
 
