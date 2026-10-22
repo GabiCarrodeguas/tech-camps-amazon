@@ -130,6 +130,6 @@ Site em construção, ainda sera publicado
 
 **Projeto educacional independente, desenvolvido por alunos do CAMPS. Não é um site oficial da empresa.**
 
-Feito com ☕ e 🧡 Gabriela Carrodeguas · EXPO TECH CAMPS 2026
+Feito com ☕ e 🧡 Gabriela Carrodeguas · TECH CAMPS 2026
 
 </div>
