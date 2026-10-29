@@ -6,6 +6,10 @@
 <title>Uma compra, milhares de operações | Amazon · TECH CAMPS 2026</title>
 <meta name="description" content="Projeto educacional independente sobre a Amazon: nuvem, sistemas e comércio digital. TECH CAMPS 2026 – Grupo 5.">
 <meta name="theme-color" content="#131921">
+
+<!-- ALTERAÇÃO: favicon próprio do projeto. -->
+<link rel="icon" type="imagem/png" href="./assets/logo.png">
+
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -17,7 +21,8 @@
   <div class="container nav">
     <a class="brand" href="#inicio" aria-label="Início">
       <span class="brand-mark" aria-hidden="true">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg>
+         <img src="./assets/logo.png" alt="" class="brand-logo">
+        <!-- <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5z"/><path d="M3 8v8l9 5 9-5V8"/><path d="M12 13v8"/></svg> -->
       </span>
       <span>Uma compra, milhares de operações<small>TECH CAMPS 2026 · Grupo 5</small></span>
     </a>
@@ -93,7 +98,7 @@
   <div class="container">
     <div class="section-head reveal">
       <span class="eyebrow"> História e linha do tempo</span>
-      <h2>30 anos construindo a infraestrutura do comércio digital</h2>
+      <h2>Mais de 30 anos construindo a infraestrutura do comércio digital</h2>
       <p>Cada marco abaixo adicionou uma peça ao sistema que hoje transforma um clique em milhares de operações.</p>
     </div>
     <ol class="timeline">
@@ -103,7 +108,7 @@
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2005</div><h3>Amazon Prime</h3><p>Lançado nos EUA em fevereiro, com frete grátis em dois dias por uma assinatura anual. Mudou as expectativas de entrega.</p></div></li>
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2006</div><h3>Amazon Web Services (AWS)</h3><p>Lançamento comercial de infraestrutura em nuvem, com o armazenamento S3 (março) e os servidores virtuais EC2 (agosto).</p><span class="tag">☁️ Nuvem</span></div></li>
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2007</div><h3>Kindle</h3><p>Em novembro, chega o leitor de livros digitais, levando a Amazon ao hardware.</p></div></li>
-      <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2011</div><h3>AWS chega ao Brasil</h3><p>Entra em operação a região AWS de São Paulo, o primeiro centro de dados da AWS na América do Sul.</p><span class="tag">🇧🇷 Brasil</span></div></li>
+      <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2011</div><h3>AWS chega ao Brasil</h3><p> A AWS abriu a região América do Sul (São Paulo), ampliando a disponibilidade de serviços de computação em nuvem para organizações no Brasil e na região. Esse marco se refere à região AWS, e não à abertura de um único data center..</p><span class="tag">🇧🇷 Brasil</span></div></li>
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2012</div><h3>Kiva Systems e Amazon.com.br</h3><p>A Amazon compra a Kiva Systems (cerca de US$ 775 milhões), que depois vira Amazon Robotics. No fim do ano, a Amazon.com.br começa a operar, inicialmente com livros.</p><span class="tag">🤖 Robótica</span> <span class="tag">🇧🇷 Brasil</span></div></li>
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2014</div><h3>Echo e Alexa</h3><p>O alto-falante inteligente Echo com a assistente Alexa é anunciado em novembro (vendas amplas a partir de 2015).</p></div></li>
       <li class="tl-item reveal"><span class="tl-dot"></span><div class="tl-card"><div class="tl-year">2016</div><h3>Primeira entrega por drone</h3><p>O programa Prime Air, anunciado em 2013, faz sua primeira entrega a um cliente, no Reino Unido.</p><span class="tag">🚁 Prime Air</span></div></li>
@@ -123,9 +128,14 @@
     </div>
     <div class="pillars">
       <article class="pillar reveal">
-        <span class="num">PILAR 1</span><div class="big">🛒</div>
+        <!-- <span class="num">PILAR 1</span><div class="big">🛒</div> -->
         <h3>E-commerce e IA</h3>
         <p>A vitrine digital é personalizada para cada pessoa por modelos de aprendizado de máquina.</p>
+             <img
+  src="./assets/ecommerce.jpg"
+  alt="Pacotes e processamento de pedidos em um centro de distribuição"
+  class="pillar-image"
+>
         <ul>
           <li>Recomendações personalizadas (“quem comprou isto também comprou”)</li>
           <li>Busca por relevância, com ranqueamento de produtos</li>
@@ -134,9 +144,14 @@
         </ul>
       </article>
       <article class="pillar reveal">
-        <span class="num">PILAR 2</span><div class="big">🤖</div>
+        <!-- <span class="num">PILAR 2</span><div class="big">🤖</div> -->
         <h3>Logística e robótica</h3>
         <p>Nos centros de distribuição, robôs levam as prateleiras até as pessoas, em vez de as pessoas caminharem até elas.</p>
+             <img
+  src="./assets/logistica.png"
+  alt="Pacotes e processamento de pedidos em um centro de distribuição"
+  class="pillar-image"
+>
         <ul>
           <li>Robôs da Amazon Robotics (origem: Kiva Systems, 2012)</li>
           <li>Visão computacional e braços robóticos para separar e identificar itens</li>
@@ -145,9 +160,13 @@
         </ul>
       </article>
       <article class="pillar reveal">
-        <span class="num">PILAR 3</span><div class="big">☁️</div>
+        <!-- <span class="num">PILAR 3</span><div class="big">☁️</div> -->
         <h3>Amazon Web Services</h3>
         <p>A espinha dorsal da nuvem: milhões de clientes, de startups a governos, alugam capacidade computacional sob demanda.</p>
+
+       <img src="./assets/nuvem.jpg"
+  alt="Pacotes e processamento de pedidos em um centro de distribuição"
+  class="pillar-image">
         <ul>
           <li>Data centers distribuídos em regiões e zonas de disponibilidade</li>
           <li>Virtualização: vários servidores virtuais num mesmo hardware</li>

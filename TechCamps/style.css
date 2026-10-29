@@ -31,6 +31,13 @@ section{padding:88px 0}
 .skip:focus{left:0}
 :focus-visible{outline:3px solid var(--orange);outline-offset:3px;border-radius:6px}
 
+
+.brand-logo {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  display: block;
+}
 /* Etiqueta acima dos títulos */
 .eyebrow{display:inline-block;font-size:.78rem;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:.8rem}
 .section-head{max-width:720px;margin-bottom:48px}
@@ -52,7 +59,7 @@ section{padding:88px 0}
 header.site{position:sticky;top:0;z-index:100;background:rgba(19,25,33,.96);backdrop-filter:blur(8px);border-bottom:1px solid rgba(255,255,255,.08)}
 .nav{display:flex;align-items:center;justify-content:space-between;height:68px}
 .brand{display:flex;align-items:center;gap:.7rem;text-decoration:none;color:#fff;font-weight:800}
-.brand-mark{width:34px;height:34px;border-radius:9px;background:var(--orange);display:grid;place-items:center;color:#111}
+/* .brand-mark{width:34px;height:34px;border-radius:9px;background:var(--orange);display:grid;place-items:center;color:#111} */
 .brand small{display:block;font-weight:500;color:#9fb0c3;font-size:.7rem;letter-spacing:.05em}
 .nav ul{display:flex;gap:.2rem;list-style:none;margin:0;padding:0}
 .nav a.link{display:block;color:#d5dce4;text-decoration:none;font-size:.9rem;font-weight:600;padding:.5rem .75rem;border-radius:8px;transition:.15s}
